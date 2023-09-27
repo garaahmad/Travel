@@ -3,7 +3,9 @@ body {
     padding: 0px;
 
 }
-
+html {
+    scroll-behavior: smooth;
+}
 #orange {
     color: #ffa63d;
 }
