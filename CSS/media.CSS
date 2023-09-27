@@ -1,0 +1,171 @@
+@media(min-width : 300px) and (max-width: 500px) {
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    nav{
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    header h1{
+        font-size: 30px !important;
+    }
+    .section1{
+        height: 2000px !important;
+    }
+    .section1 .section1Div2 img{
+        width: 300px;
+        margin-left: 5%;
+        
+    }
+    .section1Div3{
+        margin-left: 5%;
+    }
+    .section2{
+        height: 1300px !important;
+    }
+    .section2 img{
+        width: 300px;
+    }
+    .transform1 {
+        margin: 0px;
+        padding: 0px;
+        transform: translatex(45px) !important;
+    }
+    
+    .transform2 {
+        margin: 0px;
+        padding: 0px;
+        transform: translatex(45px) !important;
+    }
+    
+    .transform3 {
+        margin: 0px;
+        padding: 0px;
+        transform: translatex(45px) !important;
+    }
+    .section2 button{
+        margin-left : 35% !important;
+        margin-top: 4%;
+    }
+    .section3{
+        height: 1200px !important;
+    }
+    .section3 img{
+        width: 300px;
+    }
+    .divmod{
+        margin-left: 100px;
+    }
+    .section3 #inner{
+        width: 100% !important;
+        transform: translate(-20px,50px) !important;
+        text-align: center;
+    }
+    input{
+        transform: translateX(-30px);
+        padding: 5px 60px 5px 15px !important;
+    }
+    .section4 button{
+        padding: 10px !important;
+    }
+    .section4 h2{
+        font-size: 30px;
+        padding: 20px 0px 20px 30px ;
+    }
+    .section4 p{
+    padding: 20px 0px 20px 30px ;
+}
+footer{
+    height: 650px !important;
+}
+footer .container{
+    padding-left: 40%;
+}
+.innerdiv{
+    width: 200px !important;
+}
+.col-sm-12{
+    width: 60% !important;
+}
+
+.mov{
+    padding: 30px 10px;
+    margin: 0% 40%;
+    width: 20%;
+}
+.row {
+    margin-right: 0px;
+    width: 20%;
+}
+
+}
+
+
+@media(min-width :700px) and (max-width: 980px) {
+    nav{
+        transform: translate(5%,10%) !important;
+    }
+    header h1{
+        font-size: 40px !important;
+    }
+    .section1{
+        height: 1500px !important;
+    }
+    .mov{
+        padding: 30px 10px;
+        
+    }
+    .row {
+        margin-right: 0px;
+    }
+    .section1Div3{
+        padding-left: 20px !important;
+        transform: translate(3%,6%) !important;
+    }
+    .section2{
+        height: 1000px !important;
+    }
+    .section2 img{
+        width: 350px;
+        border-radius: 40px;
+    }
+    .transform1 {
+        transform: translatex(-10%) !important;
+    }
+    
+    .transform2 {
+        transform: translatex(6%) !important;
+    }
+    
+    .transform3 {
+        transform: translate(45% ,10%) !important;
+    }
+    .section2 button{
+        transform: translateY(80%);
+    }
+    .section3{
+        height: 1000px !important;
+    }
+    #inner{
+        transform: translate(30% ,6%) !important;
+        text-align:center;
+    }
+    .section4 h2{
+        font-size: 30px;
+    }
+    .section4 .container{
+        transform: translateY(70%);
+    }
+    #input1{
+        transform: translate(5%,70%);
+    }
+    footer{
+        height: 350px !important;
+    }
+    footer .container{
+        transform: translateX(10%);
+        width: 80%;
+    }
+}
